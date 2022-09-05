@@ -1,0 +1,26 @@
+div.container {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 600px;
+}
+.box {
+  height: 100px;
+  flex: 1 1 100px;
+}
+.box1 {
+  background-color: rgb(231, 85, 17);
+}
+.box2 {
+  background-color: rgb(248, 146, 12);
+}
+.box3 {
+  background-color: rgb(224, 231, 2);
+}
+.box4 {
+  background-color: rgb(26, 227, 237);
+}
+.box5 {
+  background-color: rgb(19, 59, 146);
+}

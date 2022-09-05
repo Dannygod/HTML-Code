@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: myFont;
+  src: url(./JasonHandwriting1.ttf);
+}
+* {
+  font-family: myFont, sans-serif;
+}
+body {
+  /*font-family: "Noto Sans TC", sans-serif;
+    */
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+}
+a {
+  text-decoration: none;
+  color: rgb(170, 125, 12);
+}
+a.survey {
+  display: block;
+  width: 250px;
+  background: rgb(217, 255, 0, 0.5);
+  border: 2px solid brown;
+  padding: 0.5rem 1rem;
+}
+a.survey:hover {
+  background: rgb(217, 255, 0, 0.75);
+}
+
+div.contain {
+  background: black;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: scroll;
+}
+div.box {
+  width: 10px;
+  height: 10px;
+  background: yellow;
+  animation: cross 5s 2 forwards;
+  position: relative;
+  border-radius: 50%;
+}
+@keyframes cross {
+  from {
+    background: yellow;
+    top: 0px;
+    left: 0px;
+  }
+  to {
+    background: rgb(161, 87, 87);
+    top: 500px;
+    left: 500px;
+  }
+}

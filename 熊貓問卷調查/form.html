@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>加入寶可夢調查團</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <form action="" method="get">
+      <h2>加入寶可夢調查團！</h2>
+      <label for="name">姓名:</label>
+      <input
+        id="name"
+        type="text"
+        name="Input_Name "
+        value="Danny Hsu"
+        placeholder="請輸入真實姓名"
+        required
+      />
+      <br>
+      <label for="gender">性別:
+      </label>
+      <select name="gender" id="gender" required>
+        <option value="" ></option>
+        <option value="male">男</option>
+        <option value="female">女</option>
+        <option value="other">其他</option>
+      </select>
+      <br>
+      <label for="area">居住地區:
+      </label>
+      <input list = areaList type="text" id="area">
+      <datalist id="areaList">
+        <option value="台北市">台北市</option>
+        <option value="台中市">台中市</option>
+        <option value="新北市">新北市</option>
+        <option value="高雄市">高雄市</option>
+        <option value="台南市">台南市</option>
+      </datalist>
+      <br>
+      <label for="E-mail">電子信箱:</label>
+      <input id="E-mail" type="email" name="E-mail" required />
+      <br />
+      <label for="age">年齡:</label>
+      <input id="age" type="number" value=18 max="100" min="1" step="1" name="age" />
+      <br />
+
+      <input id="c1" type="checkbox" name="subscribe" value="Y" checked />
+      <label for="c1">已完成 訂閱+按讚+分享</label>
+      <br />
+      
+      <button type="submit">提交</button>
+      <button type="link">返回</button>
+    </form>
+  </body>
+</html>
