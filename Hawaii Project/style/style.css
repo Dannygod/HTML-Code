@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+section.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+section.second h2 {
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+section.second section.cards {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  border: 2px solid red;
+  width: 85%;
+  margin: 7.5%;
+}
+section.second section.cards div.card {
+  flex-direction: column;
+  flex: 1 1 300px;
+  align-items: center;
+  display: flex;
+  border: 2px solid blue;
+  justify-content: space-around;
+  margin: 1rem 1.5rem;
+  padding: 1rem;
+}
+section.second section.cards div.card h3 {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+section.second section.cards div.card img {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  margin: 1rem;
+}
+section.second section.cards div.card a {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  background-color: #09777d;
+  color: white;
+  margin: 1rem 1.5rem;
+}
+section.second section.cards div.card p {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 780px) {
+  main section.second section.cards div.card img {
+    width: 50vw;
+    height: 50vw;
+  }
+}/*# sourceMappingURL=style.css.map */
